@@ -1,0 +1,20 @@
+/* Default Theme */
+:root {
+  --primary: #1a202c;
+  --primary-deep: #2d3748;
+  --primary-mild: #edf2f7;
+}
+
+/* Organ Transplant Theme (theme1) */
+.theme-theme1 {
+  --primary: #1a936f;
+  --primary-deep: #114b5f;
+  --primary-mild: #88d498;
+}
+
+/* Cosmetic Surgery Theme (theme2) */
+.theme-theme2 {
+  --primary: #f28482;
+  --primary-deep: #ffb5a7;
+  --primary-mild: #fcd5ce;
+}

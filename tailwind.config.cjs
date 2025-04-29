@@ -9,6 +9,15 @@ module.exports = {
     	"./src/**/*.{js,ts,jsx,tsx}", 
 		'./safelist.txt'
 	],
+	theme: {
+		extend: {
+			colors: {
+				'primary': 'var(--primary)',
+				'primary-deep': 'var(--primary-deep)',
+				'primary-mild': 'var(--primary-mild)',
+			}
+		}
+	},
 	darkMode: 'class',
 		theme: {
 			fontFamily: {

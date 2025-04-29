@@ -3,7 +3,7 @@ import classNames from '@/utils/classNames'
 import { APP_NAME } from '@/constants/app.constant'
 import { PAGE_CONTAINER_GUTTER_X } from '@/constants/theme.constant'
 
-export type FooterPageContainerType = 'gutterless' | 'contained'
+export type FooterPageContainerType = 'gutterless' | 'contained' | "default"
 
 type FooterProps = {
     pageContainerType: FooterPageContainerType

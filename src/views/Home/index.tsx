@@ -41,16 +41,16 @@ const Home = () => {
                 <Hero />
                 <StartYourJourney />
                 <Treatment />
-                <TopHospitals hcfData={hcfData} />
-                <TopDoctors hcfData={hcfData} />
+                <TopHospitals hcfData={{ hospitals: [], ...hcfData }} />
+                <TopDoctors hcfData={{ doctors: [], ...hcfData }} />
                 {/* <WhyMakeWell /> */}
                 {/* <MbbsVisual /> */}
                 {/* <Testimonials /> */}
                 <GetInTouch hcfData={hcfData} />
-                <Footer />
+                <Footer pageContainerType="contained" />
             </div>
         </>
     )
 }
 
-export default Home
+export default Home;
