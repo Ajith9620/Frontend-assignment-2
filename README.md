@@ -147,6 +147,14 @@ src/
    - https://demo5.localhost
    - https://seostore.localhost
 
+## 📸 Screenshots
+
+### Organ Transplant Theme
+![Theme1](./screenshots/01.png)
+
+### Cosmetic Surgery Theme
+![Theme2](./screenshots/02.png)
+
 ## 📚 How to Add New Themes
 
 1. Create a new folder in:
